@@ -1,0 +1,34 @@
+{
+  "UniqueCodeOfInvoice": "03400170011204395009",
+  "WhetherInvoiceIsRedInvoice": "false",
+  "WhetherInvoiceHasBeenChecked": "true",
+  "WhetherInvoiceHasBeenBooked": "true",
+  "UnifiedSocialCreditCodeOfAccountingEntity": "91110000073123456",
+  "NameOfAccountingEntity": "ABC",
+  "InformationOfAccountingDocumentsTuple": {
+    "NumberOfAccountingDocuments": "12345670",
+    "PostingDate": "2018-01-05",
+    "AccountingPeriod": "2018-01",
+    "SummaryOfAccountingDocuments": "高速通行费报销",
+    "InformationOfDebitAndCreditEntryTuple": [{
+        "DebitOrCredit": "借方",
+        "NameOfGeneralLedgerSubject": "管理费用",
+        "NameOfSubsidiaryLedgerSubject": "通行费",
+        "RecordedAmount": "9.50"
+      },
+      {
+        "DebitOrCredit": "贷方",
+        "NameOfGeneralLedgerSubject": "应付账款",
+        "NameOfSubsidiaryLedgerSubject": "通行费",
+        "RecordedAmount": "9.50"
+      }
+    ]
+  },
+  "WhetherInputVatHasBeenTransferredOut": "false",
+  "WhetherInvoiceUsageHasBeenConfirmed": "true",
+  "WhetherPreTaxDeductionOfIncomeTaxHasBeenCompleted": "true",
+  "BeginningOfPreTaxDeductionYearOfIncomeTax": "2018",
+  "EndOfPreTaxDeductionYearOfIncomeTax": "2018",
+  "BeginningOfExpenditurePeriodUnderAccrualBasis": "2018-01",
+  "EndOfExpenditurePeriodUnderAccrualBasis": "2018-01"
+}

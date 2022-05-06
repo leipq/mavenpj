@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:inv="http://xbrl.mof.gov.cn/taxonomy/2021-09-30/inv" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:schemaRef xlink:type="simple" xlink:href="inv_receiver_entry_point_2021-09-30.xsd"/>
+  <context id="c1">
+    <entity>
+      <identifier scheme="http://xbrl.mof.gov.cn">91110000073123456</identifier>
+    </entity>
+    <period>
+      <instant>2018-01-05</instant>
+    </period>
+  </context>
+  <unit id="u1">
+    <measure>iso4217:CNY</measure>
+  </unit>
+  <inv:UniqueCodeOfInvoice contextRef="c1">03400170011204395009</inv:UniqueCodeOfInvoice>
+  <inv:WhetherInvoiceIsRedInvoice contextRef="c1">false</inv:WhetherInvoiceIsRedInvoice>
+  <inv:WhetherInvoiceHasBeenChecked contextRef="c1">true</inv:WhetherInvoiceHasBeenChecked>
+  <inv:WhetherInvoiceHasBeenBooked contextRef="c1">true</inv:WhetherInvoiceHasBeenBooked>
+  <inv:UnifiedSocialCreditCodeOfAccountingEntity contextRef="c1">91110000073123456</inv:UnifiedSocialCreditCodeOfAccountingEntity>
+  <inv:NameOfAccountingEntity contextRef="c1">ABC</inv:NameOfAccountingEntity>
+  <inv:InformationOfAccountingDocumentsTuple>
+    <inv:NumberOfAccountingDocuments contextRef="c1">12345670</inv:NumberOfAccountingDocuments>
+    <inv:PostingDate contextRef="c1">2018-01-05</inv:PostingDate>
+    <inv:AccountingPeriod contextRef="c1">2018-01</inv:AccountingPeriod>
+    <inv:SummaryOfAccountingDocuments contextRef="c1">高速通行费报销</inv:SummaryOfAccountingDocuments>
+    <inv:InformationOfDebitAndCreditEntryTuple>
+      <inv:DebitOrCredit contextRef="c1">借方</inv:DebitOrCredit>
+      <inv:NameOfGeneralLedgerSubject contextRef="c1">管理费用</inv:NameOfGeneralLedgerSubject>
+      <inv:NameOfSubsidiaryLedgerSubject contextRef="c1">通行费</inv:NameOfSubsidiaryLedgerSubject>
+      <inv:RecordedAmount contextRef="c1" unitRef="u1" decimals="2">9.50</inv:RecordedAmount>
+    </inv:InformationOfDebitAndCreditEntryTuple>
+    <inv:InformationOfDebitAndCreditEntryTuple>
+      <inv:DebitOrCredit contextRef="c1">贷方</inv:DebitOrCredit>
+      <inv:NameOfGeneralLedgerSubject contextRef="c1">应付账款</inv:NameOfGeneralLedgerSubject>
+      <inv:NameOfSubsidiaryLedgerSubject contextRef="c1">通行费</inv:NameOfSubsidiaryLedgerSubject>
+      <inv:RecordedAmount contextRef="c1" unitRef="u1" decimals="2">9.50</inv:RecordedAmount>
+    </inv:InformationOfDebitAndCreditEntryTuple>
+  </inv:InformationOfAccountingDocumentsTuple>
+  <inv:WhetherInputVatHasBeenTransferredOut contextRef="c1">false</inv:WhetherInputVatHasBeenTransferredOut>
+  <inv:WhetherInvoiceUsageHasBeenConfirmed contextRef="c1">true</inv:WhetherInvoiceUsageHasBeenConfirmed>
+  <inv:WhetherPreTaxDeductionOfIncomeTaxHasBeenCompleted contextRef="c1">true</inv:WhetherPreTaxDeductionOfIncomeTaxHasBeenCompleted>
+  <inv:BeginningOfPreTaxDeductionYearOfIncomeTax contextRef="c1">2018</inv:BeginningOfPreTaxDeductionYearOfIncomeTax>
+  <inv:EndOfPreTaxDeductionYearOfIncomeTax contextRef="c1">2018</inv:EndOfPreTaxDeductionYearOfIncomeTax>
+  <inv:BeginningOfExpenditurePeriodUnderAccrualBasis contextRef="c1">2018-01</inv:BeginningOfExpenditurePeriodUnderAccrualBasis>
+  <inv:EndOfExpenditurePeriodUnderAccrualBasis contextRef="c1">2018-01</inv:EndOfExpenditurePeriodUnderAccrualBasis>
+</xbrl>
